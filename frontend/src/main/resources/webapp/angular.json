@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ontimize-web-ngx-jee-seed": {
+    "basicproject-frontend": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -58,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ontimize-web-ngx-jee-seed:build"
+            "browserTarget": "basicproject-frontend:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ontimize-web-ngx-jee-seed:build:production"
+              "browserTarget": "basicproject-frontend:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ontimize-web-ngx-jee-seed:build"
+            "browserTarget": "basicproject-frontend:build"
           }
         },
         "test": {
@@ -111,7 +111,7 @@
         }
       }
     },
-    "ontimize-web-ngx-jee-seed-e2e": {
+    "basicproject-frontend-e2e": {
       "root": "e2e",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -120,7 +120,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "ontimize-web-ngx-jee-seed:serve"
+            "devServerTarget": "basicproject-frontend:serve"
           }
         },
         "lint": {
@@ -135,7 +135,7 @@
       }
     }
   },
-  "defaultProject": "ontimize-web-ngx-jee-seed",
+  "defaultProject": "basicproject-frontend",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
