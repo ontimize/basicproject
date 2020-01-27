@@ -17,8 +17,8 @@
 
 	<modules>
 		<module>api</module>
-		<module>boot</module>
 		<module>frontend</module>
+		<module>boot</module>
 	</modules>
 
 	<properties>
