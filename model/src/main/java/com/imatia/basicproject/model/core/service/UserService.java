@@ -1,4 +1,4 @@
-package com.imatia.basicproject.boot.core.service;
+package com.imatia.basicproject.model.core.service;
 
 
 import java.sql.Timestamp;
@@ -13,7 +13,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.imatia.basicproject.api.core.service.IUserService;
-import com.imatia.basicproject.boot.core.dao.UserDao;
+import com.imatia.basicproject.model.core.dao.UserDao;
 import com.ontimize.db.EntityResult;
 import com.ontimize.jee.server.dao.DefaultOntimizeDaoHelper;
 

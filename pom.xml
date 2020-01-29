@@ -19,6 +19,8 @@
 		<module>api</module>
 		<module>frontend</module>
 		<module>boot</module>
+		<module>model</module>
+		<module>ws</module>
 	</modules>
 
 	<properties>
@@ -35,10 +37,12 @@
 
 	<dependencyManagement>
 		<dependencies>
+
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-web</artifactId>
 			</dependency>
+
 			<dependency>
 				<groupId>com.ontimize.boot</groupId>
 				<artifactId>ontimize-boot-dependencies</artifactId>
@@ -46,6 +50,7 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+
 			<dependency>
 				<groupId>com.imatia.basicproject</groupId>
 				<artifactId>basicproject-api</artifactId>
@@ -63,12 +68,25 @@
 				<artifactId>basicproject-frontend</artifactId>
 				<version>${basicproject.version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>com.imatia.basicproject</groupId>
+				<artifactId>basicproject-model</artifactId>
+				<version>${basicproject.version}</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>com.imatia.basicproject</groupId>
+				<artifactId>basicproject-ws</artifactId>
+				<version>${basicproject.version}</version>
+			</dependency>
+
 			<dependency>
 				<groupId>org.hsqldb</groupId>
 				<artifactId>hsqldb</artifactId>
 				<version>${hsqldb.version}</version>
 			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
-
 </project>

@@ -1,4 +1,4 @@
-package com.imatia.basicproject.boot.core.rest;
+package com.imatia.basicproject.ws.core.rest;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

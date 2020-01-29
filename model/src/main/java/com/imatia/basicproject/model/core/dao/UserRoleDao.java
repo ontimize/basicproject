@@ -1,4 +1,4 @@
-package com.imatia.basicproject.boot.core.dao;
+package com.imatia.basicproject.model.core.dao;
 
 
 import org.springframework.context.annotation.Lazy;
