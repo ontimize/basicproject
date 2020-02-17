@@ -1,4 +1,4 @@
-##Pasos para generar un arquetipo:
+## Pasos para generar un arquetipo:
 
 1.- **cd** en la carpeta del proyecto
 
@@ -124,7 +124,7 @@ El contenido de ese fichero debería ser algo así:
 
 7.- Para generar un proyecto del arquetipo ejecutar el comando&nbsp;&nbsp;``mvn archetype:generate``
 
-##Propiedades del proyecto
+## Propiedades del proyecto
 
 
 - El cliente web se sitúa en la carpeta&nbsp;&nbsp;``frontend/src/main/resources/webapp``
@@ -133,7 +133,7 @@ El contenido de ese fichero debería ser algo así:
 Si no encuentra la carpeta node_modules la crea, genera el build del cliente web y lo mueve a la carpeta public.
 
 
-##Ejecución del proyecto
+## Ejecución del proyecto
 
 - Para ejecutar la base de datos lanzamos el archivo&nbsp;&nbsp;[basicproject-database.launch](https://gitbucket.imatia.com/gitbucket/Ontimize/basicproject/blob/master/basicproject-database.launch)
 
