@@ -8,7 +8,7 @@
 
 4.- Para descartar la carpeta&nbsp;&nbsp;``target``&nbsp;&nbsp;del proyecto ejecutar&nbsp;&nbsp;&nbsp;``mvn clean``
 
-5.- Dentro de la carpeta&nbsp;&nbsp;``src/main/resources/META-INF/maven``&nbsp;&nbsp;se encuentra el archivo&nbsp;&nbsp;**archetype-metadata.xml**</li>
+5.- Dentro de la carpeta&nbsp;&nbsp;``src/main/resources/META-INF/maven``&nbsp;&nbsp;se encuentra el archivo&nbsp;&nbsp;**archetype-metadata.xml**
 
 El contenido de ese fichero debería ser algo así:
 
@@ -120,7 +120,7 @@ El contenido de ese fichero debería ser algo así:
 
 ```
 
-6.- Crear el Arquetipo (de nuevo) con &nbsp;&nbsp;``mvn install``
+6.- Crear el Arquetipo (de nuevo) con&nbsp;&nbsp;``mvn install``
 
 7.- Para generar un proyecto del arquetipo ejecutar el comando&nbsp;&nbsp;``mvn archetype:generate``
 
@@ -139,4 +139,4 @@ Si no encuentra la carpeta node_modules la crea, genera el build del cliente web
 
 - Para ejecutar el servidor lanzamos el archivo&nbsp;&nbsp;[ServerApplication.java](https://gitbucket.imatia.com/gitbucket/Ontimize/basicproject/blob/master/boot/src/main/java/com/imatia/basicproject/boot/core/ServerApplication.java)&nbsp;&nbsp;situado en el paquete&nbsp;&nbsp;``com.imatia.basicproject.boot.core``
 
-- Para visualizar el cliente web vamos a la url&nbsp;&nbsp;<a href="">http://localhost:8080/app/index.html</a></li>
+- Para visualizar el cliente web vamos a la url&nbsp;&nbsp;[http://localhost:8080/app/index.html](http://localhost:8080/app/index.html)
