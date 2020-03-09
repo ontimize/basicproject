@@ -7,6 +7,18 @@ logging:
 ontimize:
    corsfilter:
       enabled: true
+   globalcors:
+      corsConfigurations:
+         '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            exposedHeaders: ["X-Auth-Token","Content-disposition","X-Requested-With"]
+            allowedMethods:
+            - GET
+            - POST
+            - PUT
+            - OPTIONS
+            - DELETE
    jdbc:
       nameConvention: upper
       sqlhandler: oracle
