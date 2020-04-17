@@ -1,5 +1,5 @@
 ## Pasos para generar un arquetipo:
-1. Clonar el proyecto mediante el comando ``git clone https://gitbucket.imatia.com/gitbucket/git/Ontimize/basicproject.git``
+1. Clonar el proyecto mediante el comando ``git clone https://github.com/ontimize/basicproject.git``
 1. **cd** en la carpeta del proyecto
 1. Ejecutar el comando&nbsp;&nbsp;&nbsp;``mvn archetype:create-from-project``
 1.  Para visualizar la estructura del proyecto moverse a la carpeta&nbsp;&nbsp;&nbsp;``target/generated-sources/archetype``&nbsp;&nbsp;y una vez ahí ejecutar el comando&nbsp;&nbsp;``tree``
@@ -118,12 +118,12 @@ El contenido de ese fichero debería ser algo así:
 ## Propiedades del proyecto
 
 - El cliente web se sitúa en la carpeta&nbsp;&nbsp;``frontend/src/main/resources/webapp``
-- El archivo&nbsp;&nbsp;[build.bat](https://gitbucket.imatia.com/gitbucket/Ontimize/basicproject/blob/master/build.bat)&nbsp;&nbsp;se ejecuta cuando se realiza un&nbsp;&nbsp;``mvn install``&nbsp;&nbsp;en la carpeta base del proyecto.
+- El archivo&nbsp;&nbsp;[build.bat](https://github.com/ontimize/basicproject.git/blob/master/build.bat)&nbsp;&nbsp;se ejecuta cuando se realiza un&nbsp;&nbsp;``mvn install``&nbsp;&nbsp;en la carpeta base del proyecto.
 Si no encuentra la carpeta node_modules la crea, genera el build del cliente web y lo mueve a la carpeta public.
 
 
 ## Ejecución del proyecto
 
-- Para ejecutar la base de datos lanzamos el archivo&nbsp;&nbsp;[basicproject-database.launch](https://gitbucket.imatia.com/gitbucket/Ontimize/basicproject/blob/master/basicproject-database.launch)
-- Para ejecutar el servidor lanzamos el archivo&nbsp;&nbsp;[ServerApplication.java](https://gitbucket.imatia.com/gitbucket/Ontimize/basicproject/blob/master/boot/src/main/java/com/imatia/basicproject/boot/core/ServerApplication.java)&nbsp;&nbsp;situado en el paquete&nbsp;&nbsp;``com.imatia.basicproject.boot.core``
+- Para ejecutar la base de datos lanzamos el archivo&nbsp;&nbsp;[basicproject-database.launch](https://github.com/ontimize/basicproject.git/blob/master/basicproject-database.launch)
+- Para ejecutar el servidor lanzamos el archivo&nbsp;&nbsp;[ServerApplication.java](https://github.com/ontimize/basicproject.git/blob/master/boot/src/main/java/com/imatia/basicproject/boot/core/ServerApplication.java)&nbsp;&nbsp;situado en el paquete&nbsp;&nbsp;``com.imatia.basicproject.boot.core``
 - Para visualizar el cliente web vamos a la url&nbsp;&nbsp;[http://localhost:8080/app/index.html](http://localhost:8080/app/index.html)
