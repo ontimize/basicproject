@@ -24,8 +24,8 @@
 	</modules>
 
 	<properties>
-		<ontimize.boot.version>2.0.0-SNAPSHOT</ontimize.boot.version>
-		<ontimize.jee.version>2.0.0-SNAPSHOT</ontimize.jee.version>
+		<ontimize.boot.version>2.0.0</ontimize.boot.version>
+		<ontimize.jee.version>2.0.0</ontimize.jee.version>
 		<basicproject.version>0.0.1</basicproject.version>
 		<hsqldatabase.path>src/main/db</hsqldatabase.path>
 		<database.url>jdbc:hsqldb:hsql://localhost:9013/templateDB</database.url>
