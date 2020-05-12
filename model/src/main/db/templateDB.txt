@@ -66,7 +66,7 @@ SET SCHEMA PUBLIC
 INSERT INTO TUSER VALUES('demo','demouser','demo','demo',NULL,'44460713B',NULL,NULL,NULL)
 INSERT INTO TROLE VALUES(0,'admin','<?xml version="1.0" encoding="UTF-8"?><security></security>')
 INSERT INTO TUSER_ROLE VALUES(0,0,'demo')
-INSERT INTO TSERVER_PERMISSION VALUES(0,'com.imatia.jee.videoclub.common.base.services.IUserAndRoleService/userQuery')
+INSERT INTO TSERVER_PERMISSION VALUES(0,'com.ontimize.hr.api.core.service.IUserAndRoleService/userQuery')
 INSERT INTO TSERVER_PERMISSION VALUES(1,'com.ontimize.jee.common.services.user.IUserInformationService/getUserInformation')
 INSERT INTO TSERVER_PERMISSION VALUES(2,'com.ontimize.jee.common.services.mail.IMailService/sendMail')
 INSERT INTO TSERVER_PERMISSION VALUES(3,'com.ontimize.jee.common.services.mail.IMailService/sendMailWithoutAttach')
