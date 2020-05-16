@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.imatia.basicproject</groupId>
 		<artifactId>basicproject</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2</version>
 	</parent>
 	<artifactId>basicproject-model</artifactId>
 	<name>Basic project model</name>
@@ -19,34 +19,19 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.hsqldb</groupId>
-			<artifactId>hsqldb</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>com.imatia.basicproject</groupId>
 			<artifactId>basicproject-api</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>com.imatia.basicproject</groupId>
-			<artifactId>basicproject-frontend</artifactId>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>com.ontimize.boot</groupId>
-			<artifactId>ontimize-boot-starter-jdbc</artifactId>
+			<groupId>com.ontimize.jee</groupId>
+			<artifactId>ontimize-jee-server-jdbc</artifactId>
 		</dependency>
-
-		<dependency>
-			<groupId>com.ontimize.boot</groupId>
-			<artifactId>ontimize-boot-starter-rest</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-		</dependency>
-
 	</dependencies>
 
 	<build>

@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.imatia.basicproject</groupId>
 		<artifactId>basicproject</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2</version>
 	</parent>
 	<artifactId>basicproject-ws</artifactId>
 	<name>Basic project ws</name>
@@ -14,6 +14,11 @@
 		<dependency>
 			<groupId>com.imatia.basicproject</groupId>
 			<artifactId>basicproject-model</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.ontimize.boot</groupId>
+			<artifactId>ontimize-boot-starter-rest</artifactId>
 		</dependency>
 	</dependencies>
 </project>

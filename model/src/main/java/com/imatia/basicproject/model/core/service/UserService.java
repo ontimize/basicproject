@@ -9,7 +9,6 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.imatia.basicproject.api.core.service.IUserService;
@@ -18,8 +17,8 @@ import com.ontimize.db.EntityResult;
 import com.ontimize.jee.server.dao.DefaultOntimizeDaoHelper;
 
 
-@Service("UserService")
 @Lazy
+@Service("UserService")
 public class UserService implements IUserService {
 
 	@Autowired

@@ -5,31 +5,33 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.9.RELEASE</version>
+		<groupId>com.ontimize.boot</groupId>
+		<artifactId>ontimize-boot-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.imatia.basicproject</groupId>
 	<artifactId>basicproject</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<packaging>pom</packaging>
 
 	<modules>
 		<module>api</module>
-		<module>frontend</module>
-		<module>boot</module>
 		<module>model</module>
 		<module>ws</module>
+		<module>frontend</module>
+		<module>boot</module>
 	</modules>
 
 	<properties>
-		<ontimize.boot.version>2.0.0</ontimize.boot.version>
-		<ontimize.jee.version>2.0.0</ontimize.jee.version>
-		<basicproject.version>0.0.1</basicproject.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<basicproject.version>0.0.2-SNAPSHOT</basicproject.version>
 		<hsqldatabase.path>src/main/db</hsqldatabase.path>
 		<database.url>jdbc:hsqldb:hsql://localhost:9013/templateDB</database.url>
 		<hsqldb.version>2.3.4</hsqldb.version>
+		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
 	</properties>
 
 	<dependencies>
@@ -41,14 +43,6 @@
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-web</artifactId>
-			</dependency>
-
-			<dependency>
-				<groupId>com.ontimize.boot</groupId>
-				<artifactId>ontimize-boot-dependencies</artifactId>
-				<version>${ontimize.boot.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
 			</dependency>
 
 			<dependency>
