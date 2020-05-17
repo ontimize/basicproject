@@ -6,6 +6,7 @@ import java.util.Map;
 
 import com.ontimize.db.EntityResult;
 
+
 public interface IUserService {
 
 	public EntityResult userQuery(Map<?, ?> keyMap, List<?> attrList);

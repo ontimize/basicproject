@@ -9,11 +9,13 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Service;
 
 import com.imatia.basicproject.api.core.service.IUserService;
 import com.imatia.basicproject.model.core.dao.UserDao;
 import com.ontimize.db.EntityResult;
+import com.ontimize.jee.common.security.PermissionsProviderSecured;
 import com.ontimize.jee.server.dao.DefaultOntimizeDaoHelper;
 
 
@@ -30,6 +32,8 @@ public class UserService implements IUserService {
 	public void loginQuery(Map<?, ?> key, List<?> attr) {
 	}
 
+	//Sample to permission
+	//@Secured({ PermissionsProviderSecured.SECURED })
 	public EntityResult userQuery(Map<?, ?> keyMap, List<?> attrList) {
 		return this.daoHelper.query(userDao, keyMap, attrList);
 	}

@@ -13,6 +13,7 @@ app/**/*.js.map
 # dependencies
 node_modules/
 bower_components/
+node/
 
 # IDEs and editors
 .idea/
@@ -123,5 +124,12 @@ atlassian-ide-plugin.xml
 # Code generated when building the .jar #
 #######################################
 */src/generated
+
+# Database #
+############
+
+templateDB.lck
+templateDB.script
+
 
 
