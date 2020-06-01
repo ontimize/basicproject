@@ -94,7 +94,6 @@
 						<version>${frontend-maven-plugin.version}</version>
 					</plugin>
 				</plugins>
-
 		</pluginManagement>
 
 	</build>

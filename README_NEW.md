@@ -17,5 +17,5 @@ Entrar en la carpeta frontend/src/main/ngx, si tienes instalado node y npm en el
 'npm install'
 'npm start' 
 
-6. Si se desea desplegar el cliente y el servidor todo junto, ejecutar el siguiente comando 'mvn clean isntall -Pdeploy'. 
+6. Si se desea desplegar el cliente y el servidor todo junto, ejecutar el siguiente comando 'mvn clean install -Pdeploy'. 
 Utilizar el siguiente URL para acceder a la aplicación 'https://localhost:33333/app/index.html' 
