@@ -11,8 +11,8 @@
         <version>0.0.3-SNAPSHOT</version>
     </parent>
 
-    <name>Basic project api</name>
-    <description>Basic project api code.</description>
+    <name>${project.artifactId}</name>
+    <description>${project.artifactId}</description>
     <artifactId>basicproject-api</artifactId>
     <packaging>jar</packaging>
 

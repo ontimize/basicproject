@@ -10,8 +10,8 @@
         <version>0.0.3-SNAPSHOT</version>
     </parent>
 
-    <name>Basic project frontend</name>
-    <description>Basic project frontend app.</description>
+    <name>${project.artifactId}</name>
+    <description>${project.artifactId} app.</description>
     <artifactId>basicproject-frontend</artifactId>
     <packaging>jar</packaging>
 

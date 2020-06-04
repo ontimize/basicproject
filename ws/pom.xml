@@ -8,8 +8,8 @@
 		<version>0.0.3-SNAPSHOT</version>
 	</parent>
 	<artifactId>basicproject-ws</artifactId>
-	<name>Basic project ws</name>
-	<description>Basic project webservice</description>
+	<name>${project.artifactId}</name>
+	<description>${project.artifactId}</description>
 	<dependencies>
 		<dependency>
 			<groupId>com.imatia.basicproject</groupId>

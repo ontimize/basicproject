@@ -10,13 +10,13 @@
 		<version>0.0.3-SNAPSHOT</version>
 	</parent>
 
-	<name>Basic project boot</name>
-	<description>Basic project services.</description>
+	<name>${project.artifactId}</name>
+	<description>${project.artifactId}</description>
 	<artifactId>basicproject-boot</artifactId>
 	<packaging>jar</packaging>
 
 	<properties>
-		<start-class>com.imatia.basicproject.boot.core.ServerApplication</start-class>
+		<start-class>${package}.boot.core.ServerApplication</start-class>
 		<spring-boot.repackage.skip>false</spring-boot.repackage.skip>
 	</properties>
 
